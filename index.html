@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>macarons.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+       
+       <input type="checkbox" id="menu">
+       <label for="menu" class="fa-solid fa-bars"></label>
+
+       <a href="#home" class="logo">L'Aura Sweet<span>.</span></a>
+
+       <nav class="navbar">
+           <a href="#home">Home</a>
+           <a href="#about">About</a>
+           <a href="#products">Products</a>
+           <a href="#review">Review</a>
+           <a href="#contact">Contact</a>
+       </nav>
+
+       <div class="icon">
+        <a href="#products" class="fa-solid fa-heart"></a>
+        <a href="#products" class="fa-solid fa-cart-shopping"></a>
+        <a href="#contact" class="fa-solid fa-user"></a>
+       </div>
+
+    </header>
+
+    <input type="checkbox" id="cart-check" style="display:none;">
+    <div class="success-overlay cart-popup">
+        <div class="success-box">
+            <i class="fa-solid fa-cart-plus" style="font-size: 5rem; color: rgba(255, 3, 162, 0.927); margin-bottom: 1rem;"></i>
+            <h3>Added to Cart!</h3>
+            <p>Your sweet treat has been added to your shopping bag.</p>
+            <label for="cart-check" class="btn">Continue Shopping</label>
+        </div>
+    </div>
+
+     <section class="home" id="home">
+
+        <div class="content">
+            <h3>Sweet Tasty Macarons & Frappe</h3>
+            <span>Sweet & Flavorful Food & Drinks</span>
+            <p>Indulge in the delicate crunch of a perfect Parisian macaron. Then, refresh your palate with the smooth, creamy chill of a signature frappe.</p>
+            <a href="#products" class="btn">Shop Now</a> </div>
+        
+     </section>   
+
+     <section class="about" id="about">
+
+        <h1 class="heading"><span>About </span>Us</h1>
+        
+     <div class="row">
+
+        <div class="video-container">
+            <video src="vdo.mp4" loop autoplay muted></video>
+            <h3>Best Macarons</h3>
+        </div>
+
+        <div class="content">
+            <h3>Why choose us ?</h3>
+            <p> At L'Aura Sweet, we believe that every dessert should be a masterpiece of flavor and texture. Our macarons are hand-piped daily using traditional French techniques and the finest almond flour.
+                We carefully craft our velvety frappes to provide a refreshing balance to our delicate, airy shells. Choosing us means choosing a premium experience where every bite and every sip is prepared with passion.</p>
+            <a href="#contact" class="btn">Learn more</a>
+        </div>
+
+    </div>
+     </section>
+
+      <section class="icon-content">
+
+        <div class="icon">
+            <img src="free.png">
+            <div class="info">
+                <h3>Free Delivery</h3>
+                <span>On all orders</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="10days.png">
+            <div class="info">
+                <h3>10 days return</h3>
+                <span>Moneyback guarantee</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="offer.png">
+            <div class="info">
+                <h3>offer & gifts</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="secure.png">
+            <div class="info">
+                <h3>secure payments</h3>
+                <span>protected by paypal</span>
+            </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h1 class="heading"><span>About </span>Us</h1>
+        <div class="row">
+            <div class="video-container">
+                <video src="vdo.mp4" loop autoplay muted></video>
+                <h3>Best Macarons</h3>
+            </div>
+            <div class="content">
+                <h3>Why choose us?</h3>
+                <p>At L'Aura Sweet, we believe every dessert should be a masterpiece. Choosing us means choosing a premium experience prepared with passion.</p>
+                <a href="#contact" class="btn">Learn more</a> 
+            </div>
+        </div>
+    </section>
+
+     <section class="products" id="products">
+
+        <h1 class="heading">latest <span>products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="chocolate.jpeg">
+                    <div class="icon">
+                        <a href="#products"  class="fa-solid fa-heart"></a>
+                        <label for="cart-check" class="cart-btn">add to cart</label>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Chocolate Bliss</h3>
+                    <div class="price">₱280.00 <span>₱300.00</span></div>
+                </div>
+            </div>
+            
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="pistacio.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Pistacio Delight</h3>
+                    <div class="price">₱280.00 <span>₱300.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="redvelvet.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Red Velvet</h3>
+                    <div class="price">₱280.00 <span>₱300.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="ube.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Ube Coconut</h3>
+                    <div class="price">₱280.00 <span>₱300.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="rapsberry.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Raspberry Delight</h3>
+                    <div class="price">₱280.00 <span>₱300.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-3%</span>
+                <div class="image">
+                    <img src="strawberry.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Strawberry Frappe</h3>
+                    <div class="price">₱180.00 <span>₱200.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-18%</span>
+                <div class="image">
+                    <img src="biscoff.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Biscoff Frappe</h3>
+                    <div class="price">₱180.00 <span>₱200.00</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-12%</span>
+                <div class="image">
+                    <img src="matcha.jpeg">
+                    <div class="icon">
+                        <a href="#products" class="fa-solid fa-heart"></a>
+                        <a href="#products" class="cart-btn">add to cart</a>
+                        <a href="#products" class="fa-solid fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Matcha Frappe</h3>
+                    <div class="price">₱180.00 <span>₱200.00</span></div>
+                </div>
+            </div>
+
+        </div>
+     </section>   
+
+    <section class="review" id="review">
+
+      <h1 class="heading">customer's <span>reviews</span></h1>
+
+      <div class="box-container">
+        
+        <div class="box">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>I stumbled into L'Aura Sweet yesterday and was immediately struck by the beautiful pastel decor. The Lavender Honey macaron had the most perfect, delicate crunch I’ve ever tasted. Pairing it with a Caramel Frappe was the highlight of my entire week!</p>
+            <div class="user">
+                <img src="deo.jpg">
+                <div class="user-info">
+                    <h3>john deo</h3>
+                    <span>happy customer</span>
+                </div>
+            </div>
+            <span class="fa-solid fa-quote-right"></span> 
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>This has become my favorite weekend ritual for a little bit of self-care. The quality of the ingredients really shines through in every single hand-piped shell. I honestly can’t decide if I love the vibrant flavors or the velvety texture of the drinks more!</p>
+            <div class="user">
+                <img src="jain.jpeg">
+                <div class="user-info">
+                    <h3>alisha jain</h3>
+                    <span>happy customer</span>
+                </div>
+            </div>
+            <span class="fa-solid fa-quote-right"></span> 
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>I ordered a custom box of macarons for a friend’s birthday, and the presentation was absolutely stunning. Not only did they look like pieces of art, but they tasted incredibly fresh and authentic. L'Aura Sweet is officially my go-to spot for treats that truly impress!</p>
+            <div class="user">
+                <img src="roy.jpeg">
+                <div class="user-info">
+                    <h3>rocky roy</h3>
+                    <span>happy customer</span>
+                </div>
+            </div>
+            <span class="fa-solid fa-quote-right"></span> 
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+
+     <h1 class="heading">contact <span>us</span></h1>
+
+     <div class="row">
+        <input type="checkbox" id="form-submit-check" style="display:none;">
+        <div class="success-overlay">
+            <div class="success-box">
+                <i class="fa-solid fa-circle-check" style="font-size: 5rem; color: #f399ff; margin-bottom: 1rem;"></i>
+                <h3>Message Sent!</h3>
+                <p>Thank you for reaching out to L'Aura Sweet. We will get back to you soon.</p>
+                <label for="form-submit-check" class="btn">Close</label>
+            </div>
+        </div>
+
+        <form action="">
+            <input type="text" placeholder="name" class="box" required>
+            <input type="email" placeholder="email" class="box" required>
+            <input type="number" placeholder="number" class="box" required >
+            <textarea name="" class="box" placeholder="messsage" id="" cols="30" rows="10" required></textarea>
+
+            <label for="form-submit-check" class="btn" style="text-align: center; display: block;">send message</label>
+        </form>
+
+        <div class="image">
+            <img src="little.jpg">
+        </div>
+
+     </div>
+     </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="https://www.google.com/maps/place/United+Arab+Emirates/@24.3360241,51.4485158,8z/data=!3m1!4b1!4m15!1m8!3m7!1s0x30635ff06b92b791:0xd78c4fa1854213a6!2sIndia!3b1!8m2!3d20.593684!4d78.96288!16zL20vMDNyazA!3m5!1s0x3e5e48dfb1ab12bd:0x33d32f56c0080aa7!8m2!3d23.424076!4d53.847818!16zL20vMGoxejg?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">india</a>
+                <a href="https://www.google.com/maps/place/Los+Angeles,+CA,+USA/@34.0194736,-119.0355359,10z/data=!3m1!4b1!4m15!1m8!3m7!1s0x54eab584e432360b:0x1c3bb99243deb742!2sUnited+States!3b1!8m2!3d38.7945952!4d-106.5348379!16zL20vMDljN3cw!3m5!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!8m2!3d34.0549076!4d-118.242643!16s%2Fm%2F030qb3t?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">USA</a>
+                <a href="https://www.google.com/maps/place/Tokyo,+Japan/@35.676219,139.650311,10z/data=!3m1!4b1!4m15!1m8!3m7!1s0x60188b49a2c9f8d7:0x4c2e2a2d8e8d8e8d!2sJapan!3b1!8m2!3d35.676219!4d139.650311!16zL20vMDNyazA!3m5!1s0x35de6b4a7f0a0a0a:0x4c2e2a2d8e8d8e8d!8m2!3d35.676219!4d139.650311!16s%2Fm%2F030qb3t?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">japan</a>
+                <a href="https://www.google.com/maps/place/Paris,+France/@48.856614,2.352222,10z/data=!3m1!4b1!4m15!1m8!3m7!1s0x47e675f7c9c9c9c9:0x4c2e2a2d8e8d8e8d!2sFrance!3b1!8m2!3d48.856614!4d2.352222!16zL20vMDNyazA!3m5!1s0x47e675f7c9c9c9c9:0x4c2e2a2d8e8d8e8d!8m2!3d48.856614!4d2.35222２!16s%２Fm%２F0３０ｑｂ３ｔ?entry=ttu&g_ep=EgoyMDI２MDMyNC４wIKXMDSoASAFQAw%３D%３D" target="_blank">france</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="tel:09054766193">0905-4766-193</a>
+                <a href="mailto:dwainnef@gmail.com">dwainnef@gmail.com</a>
+                <a href="#">mumbai, india-400104</a>
+                <a href="#">france</a>
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>Farnazo, Manuel, Diel, Ferollino, Salimbagat. web designer</span> | all rights reserved</div>
+    </section>
+</body>
+</html>
